@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+</head>
+<body>
+    <form action="mailto:rushikeshbabar3753@gmail.com" metod="post" >
+       
+        <lable for="Full Name"> <strong>Full Name:</strong></lable>
+        <br>
+        <input type="text" id="full name"name="Full name" required placeholder="Enter your full name">
+        <br>
+        <br>
+        <label for="Student Email">Student Email:</label>
+       <br>
+       <input type="email" id="student email" name="Student Email" required placeholder="Enter your email">
+       <br>
+       <br>
+       <label for="gendre"  >Gendre:
+         <input type="radio" name="Gendre" value="Male" required>male
+         <input type="radio" name="Gendre" value="female">Female
+       </label> 
+       <br>
+       <br>
+       <label for="number">Mobile Number</label>
+       <br>
+       <input type="number" id="number" maxlength="10" required placeholder="Enter your mobile number">
+       <br>
+       <br>
+       <label for="address">Address line 1:</label>
+       <br>
+       <textarea id="address" name="Address line 1" rows="2" cols="20" required placeholder="Enter your address"></textarea>
+       <br>
+       <br>
+       <label for="city">City:</label>
+       <br>
+        <select name="city" id="city" required>
+            <option  disabled selected >select your city</option>
+            <option value="Mhaswad" >Mhaswad</option>
+            <option value="Dahiwadi" >Dahiwadi</option>
+            <option value="Satara" >Satara</option>
+            <option value="khatv" >khatv</option>
+        </select>
+        <br>
+        <br>
+        <label for="state">State:</label>:</label>
+        <br>
+        <select name="state" id="state" required>
+            <option value="" disabled selected>Select your state</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Goa">Goa</option>
+        </select>
+        <br>
+        <br>
+        <label for="number">pincode:</label>
+        <br>
+        <input type="number" id="number" name="number" required placeholder="Enter your pincode">
+        <br >
+        <br>
+        <button  style="background-color: blueviolet;" type="submit"> Submit</button>
+        <button  style= " background-color: cadetblue;"type="reset">reset </button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <froms -->
+     <form action="mailto:rushikeshbabar3753@gmail.com"      target="_blank"method="post" enctype="text/plain">
+        <h1>Registration Form</h1>
+        <label for="Name">Full Name:
+            <input type="text" required placeholder="Enter your name" >
+        </label>
+        <br>
+      
+        <label for="Email">Email    :
+            <input type="Email" required  placeholder="Enter your email" aria-placeholder="">
+        </label>
+        <br>
+        <label for="Dob">DOB:
+            <input type="date" required placeholder="Enter your date of birth">
+        </label>
+        <br>
+        <label for="gender">gender:
+           <input type="radio" name="gender" value="male" >Male
+           <input type="radio" name="gender" value="Female">Female
+        </label>
+        <br>
+       
+        <label for="Country">country:
+        <select name="country" id="country">
+            <option value="" disabled selected>Select your country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            </select>   
+        </label>
+        <br>
+        <label for="State">State:
+            <select name="State" id="State">
+                <option value="select" >Select your country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </label>
+      
+        <br>
+         
+        <label for="Number">Pincode:
+            <input type="number" required placeholder="Enter your pincode">
+        </label>
+        <br>
+        <label for="Address">Address:
+            <input type="text" required placeholder="Enter your address">
+        </label>
+        <br>
+        <label for="Password">Password:
+            <input type="password" required placeholder="Enter your password">
+        </label>
+        <br>
+        <label for="Confirm Password">Confirm Password:
+            <input type="password" required placeholder="Enter your confirm password">
+        </label>
+        <br>
+        <label for="Terms">
+            <input type="checkbox" required>
+            I agree to the terms and conditions
+        </label>
+        <br>
+        <button type="submit" style="background-color: pink;">Submit</button>
+        <button type="reset" style="background-color: lightblue;">Reset</button>
+
+
+     </form>
+</body>
+</html>
